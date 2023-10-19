@@ -1,15 +1,27 @@
 <script>
+import Navbar from './partials/Navbar.vue';
+
 export default {
-name:'Header'
+    name: 'Header',
+    components: {
+       Navbar 
+      }
 }
 </script>
 
 <template>
-  <h1>questo è header</h1>
+  <header>
+    <div class="top-bar">
+      <Navbar />
+    </div>
+  </header>
 </template>
 
 
 
 <style lang="scss" scoped>
+header{
+  height: 800px;
 
+}
 </style>
