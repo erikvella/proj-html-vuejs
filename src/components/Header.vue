@@ -11,7 +11,10 @@ export default {
 
 <template>
   <header>
-    <div class="top-bar">
+    <div class="top-bar d-flex justify-content-around">
+      <div>
+        <img src="../assets/img/logoTop.png" alt="">
+      </div>
       <Navbar />
     </div>
   </header>
@@ -21,7 +24,14 @@ export default {
 
 <style lang="scss" scoped>
 header{
-  height: 800px;
-
+  height: 900px;
+  background-image: url(../assets/img/jumbotron.jpeg);
+  background-size: cover;
+  background-position: center;
 }
+
+img{
+  margin-top: 25px;
+}
+
 </style>
