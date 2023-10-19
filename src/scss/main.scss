@@ -1,1 +1,9 @@
 @import 'bootstrap/scss/bootstrap';
+@import '@fontsource/roboto';
+@import '@fontsource/roboto/700.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+// salvo la mia palette di colori che serviranno nel progetto
