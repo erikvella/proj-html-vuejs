@@ -9,25 +9,28 @@ name:'Navbar'
   <div class="d-flex">
     <nav class="my-4">
     <ul>
-      <li class="yellow-text">
-        HOME
+      
+      <li class="menu-item">
+        <span class="yellow-text">HOME</span>
       </li>
-      <li>
-        MISSION
+      <li class="menu-item">
+        <span>MISSION</span>
       </li>
-      <li>
-        CAUSES <i class="fa-solid fa-chevron-down"></i>
+      <li class="menu-item">
+        <span>CAUSES <i class="fa-solid fa-chevron-down"></i></span>
       </li>
-      <li>
-        JOURNAL
+      <li class="menu-item">
+        <span>JOURNAL</span>
       </li>
+      <li class="menu-item bg-yellow">
+        <span>DONATE</span>
+      </li>
+      
     
     </ul>
   </nav>
 
-  <div class="yellow-badge my-5 donate">
-    <span>DONATE</span>
-  </div>
+  
 
   </div>
 
@@ -36,8 +39,9 @@ name:'Navbar'
 
 
 <style lang="scss" scoped>
-.yellow-badge{
-  background-color: #fec96b;
+.menu-item{
+  
+  padding: 10px 25px;
 }
 
 ul{
@@ -49,10 +53,7 @@ ul{
   }
 }
 
-.donate{
-  height: 25px;
-  color: white;
-}
+
 
 .yellow-text{
   color: #fec96b;
