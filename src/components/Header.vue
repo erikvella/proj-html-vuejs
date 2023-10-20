@@ -25,8 +25,8 @@ export default {
       </p>
     </div>
     <div class="container d-flex justify-content-center">
-      <div class="button white-border mx-3">OUR MISSION</div>
-      <div class="button yellow-border mx-3">DONATE NOW</div>
+      <div class="button white-border mx-3 text-center">OUR MISSION</div>
+      <div class="button yellow-border mx-3 text-center">DONATE NOW</div>
     </div>
 
 

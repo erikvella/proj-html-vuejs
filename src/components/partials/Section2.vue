@@ -10,7 +10,7 @@ name:'Section2'
       
         <h1 class=" white-text text-center">OUR VALUES</h1>
         <div class="yellow-line my-5 mx-auto"></div>
-        <h3 class=" grey-text text-center">Think big. Act bigger</h3>
+        <h4 class=" grey-text text-center">Think big. Act bigger</h4>
     </div>   
      
     <div class="container">
@@ -71,7 +71,5 @@ h2{
   font-size: 4rem;
 }
 
-.grey-text{
-  color:  #e5e5e5;
-}
+
 </style>
