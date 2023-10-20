@@ -7,7 +7,7 @@ name:'Section1'
 
 <template>
   <section>
-    <div class="container-fluid debug">
+    <div class="container-fluid">
       <div class="row">
         <!-- colonna di sx -->
         <div class="col-8">
