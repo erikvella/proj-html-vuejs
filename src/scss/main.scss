@@ -10,7 +10,7 @@ body {
 
 .bg-yellow{
   background-color: #fec96b;
-
+  color: white;
 }
 
 .bg-dark{
@@ -39,4 +39,31 @@ body {
 
 .bg-light-grey{
   background-color: #e5e5e5;
+}
+
+// utility
+.white-text{
+  color: white;
+}
+// stili per i bottoni
+.button{
+  padding: 10px 30px;
+  }
+  .white-border{
+    border: 1px solid white;
+    color: white;
+  }
+  .yellow-border{
+    border: 1px solid  #fec96b;
+    color: #fec96b;
+  }
+  // stile per la linea gialla 
+.yellow-line{
+  border: 2px solid #fec96b;
+  width: 200px;
+}
+
+// debug per la costruzione del mark-up
+.debug{
+  border: 1px solid red;
 }

@@ -1,11 +1,15 @@
 <script>
+import Section1 from './partials/Section1.vue';
 export default {
+  components:{
+   Section1
+  },
 name:'Main'
 }
 </script>
 
 <template>
-  <h1>questo è main</h1>
+  <Section1 />
 </template>
 
 

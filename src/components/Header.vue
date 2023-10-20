@@ -46,14 +46,6 @@ header{
 img{
   margin-top: 35px;
 }
-.white-border{
-  border: 1px solid white;
-  color: white;
-}
-.yellow-border{
-  border: 1px solid  #fec96b;
-  color: #fec96b;
-}
 
 h1{
   color: white;
@@ -66,7 +58,5 @@ p{
   font-size: 1.5rem;
 }
 
-.button{
-padding: 10px 30px;
-}
+
 </style>
