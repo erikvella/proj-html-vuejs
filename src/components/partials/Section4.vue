@@ -90,7 +90,7 @@ name:'Section4'
 
 <style lang="scss" scoped>
 section{
-  height: 1300px;
+  height: 1200px;
   width: 100%;
 }
 h1{
