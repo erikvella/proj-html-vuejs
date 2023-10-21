@@ -9,8 +9,8 @@ name:'Section2'
     <div class="container">
       
         <h1 class=" white-text text-center">OUR VALUES</h1>
-        <div class="yellow-line my-5 mx-auto"></div>
-        <h4 class=" grey-text text-center">Think big. Act bigger</h4>
+        <div class="yellow-line mt-3 mx-auto"></div>
+        <h4 class=" grey-text text-center mt-5">Think big. Act bigger</h4>
     </div>   
      
     <div class="container">

@@ -8,9 +8,9 @@ name:'Section3'
   <section>
     <div class="container">
       
-      <h1 class="my-5 text-center">RECENT CAUSES</h1>
-      <div class="yellow-line my-5 mx-auto"></div>
-      <h4 class=" dark-grey-text text-center">We run projects in over 30 countries in 5 continents</h4>
+      <h1 class="mt-5 text-center">RECENT CAUSES</h1>
+      <div class="yellow-line mt-3 mx-auto"></div>
+      <h4 class=" dark-grey-text text-center mt-5">We run projects in over 30 countries in 5 continents</h4>
 
     </div>  
 

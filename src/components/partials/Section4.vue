@@ -9,15 +9,79 @@ name:'Section4'
     <div class="container">
       
       <h1 class="text-center">LATEST ARTICLES</h1>
-      <div class="yellow-line my-5 mx-auto"></div>
-      <h4 class="dark-grey-text text-center">Together we make all the differences</h4>
-  </div>  
+      <div class="yellow-line mt-3 mx-auto"></div>
+      <h4 class="dark-grey-text text-center mt-5">Together we make all the differences</h4>
+    </div>  
   
   <div class="container">
     <div class="row">
-      <div class="col-6"></div>
-      <div class="col-6"></div>
+      <!-- qui abbiamo la colonna di sx -->
+      <div class="col-6">
+        <div class="big-img-card my-5 ">
+          <img class="big-img" src="../../assets/img/HelloIMG1669149322752.jpeg" alt="">
+          <h4 class="yellow-text p-4">Understanding community complexities</h4>
+          <p class="dark-grey-text px-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
+          </p>
+        </div>
+      </div>
+
+      <!-- qui inizia la colonna di dx -->
+      <div class="col-6">
+         <div class="small-img-card d-flex my-5">
+            <div class="box-img">
+              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
+            </div>
+            <div class="small-img-text">
+                    <h4 class="yellow-text mx-4">Understanding community complexities</h4>
+                      <p class="dark-grey-text mx-4">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
+                      </p>
+            </div>
+         </div>
+         <div class="small-img-card d-flex my-5">
+            <div class="box-img">
+              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
+            </div>
+            <div class="small-img-text">
+                    <h4 class="yellow-text mx-4">Sustainable trade tactics</h4>
+                      <p class="dark-grey-text mx-4">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
+                      </p>
+            </div>
+         </div>
+         <div class="small-img-card d-flex my-5">
+            <div class="box-img">
+              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
+            </div>
+            <div class="small-img-text">
+                    <h4 class="yellow-text mx-4">Farmers making a difference</h4>
+                      <p class="dark-grey-text mx-4">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
+                      </p>
+            </div>
+         </div>
+         <div class="small-img-card d-flex my-5">
+            <div class="box-img">
+              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
+            </div>
+            <div class="small-img-text">
+                    <h4 class="yellow-text mx-4">Meeting remote tribes in Peru</h4>
+                      <p class="dark-grey-text mx-4">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
+                      </p>
+            </div>
+         </div>
+       
+      </div>
     </div>
+  </div>
+
+
+  <!-- piccolo segmento in rosa -->
+
+  <div class="container bg-pink my-5 ">
+    <h4 class="white-text text-center py-4">VIEW ALL OUR ARTICLES</h4>
   </div>
   </section>
 </template>
@@ -26,10 +90,25 @@ name:'Section4'
 
 <style lang="scss" scoped>
 section{
-  height: 1000px;
+  height: 1300px;
   width: 100%;
 }
 h1{
   padding-top: 150px;
+}
+.big-img-card{
+  height: 600px;
+  width: 560px;
+  box-shadow: 1px 5px lightgrey;
+}
+.big-img{
+  width: 560px;
+}
+
+.small-img-card{
+  height: 115px;
+}
+.small-img{
+  width: 145px;
 }
 </style>
