@@ -30,6 +30,16 @@ export default {
     </div>
 
 
+    <!-- qui ci sono i due box bianchi a destra nell'header -->
+    <div class="box1">
+      <span><i class="fa-brands fa-vuejs fa-2xl dark-text"></i></span>
+      <h6 class="dark-text text-center">Prebuilts</h6>
+    </div>
+    <div class="box2">
+    <p class="green-text text-center">$ <span class="green-text num">45</span></p>
+    <h6 class="dark-text text-center">On Sale</h6>
+    </div>
+
   </header>
 </template>
 
@@ -41,6 +51,7 @@ header{
   background-image: url(../assets/img/jumbotron.jpeg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 img{
@@ -58,5 +69,35 @@ p{
   font-size: 1.5rem;
 }
 
+.box1{
+  position: absolute;
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  top: 150px;
+  right: 30px;
+}
+.box2{
+  position: absolute;
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  top: 230px;
+  right: 30px;
+}
+.fa-vuejs{
+  margin-top: 30px;
+  margin-left: 22px;
+}
+.green-text{
+  color: rgb(22, 144, 4);
+  margin: 0;
+}
 
+.num{
+  font-size: 2rem;
+  
+}
 </style>
