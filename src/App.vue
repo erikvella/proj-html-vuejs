@@ -14,9 +14,11 @@ name:'App'
 
 
 <template>
+
  <Header />
  <Main />
  <Footer />
+ 
 </template>
 
 
