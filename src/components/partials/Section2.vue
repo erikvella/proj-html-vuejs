@@ -1,6 +1,12 @@
 <script>
+import { section2_cards } from '../../data/store';
 export default {
-name:'Section2'
+name:'Section2',
+data(){
+  return{
+    section2_cards
+  }
+}
 }
 </script>
 

@@ -45,4 +45,31 @@ const social_menu = [
   }
 ]
 
-export {top_menu , social_menu}
+
+const section2_cards = [
+  {
+    icon : 'fa-droplet fa-2xl',
+    title : 'CLEAN WATER',
+    text : 'Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.',
+    btn_text : 'LEARN MORE'
+  },
+  {
+    icon : 'fa-stethoscope fa-2xl',
+    title : 'VACCINATIONS',
+    text : 'Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.',
+    btn_text : 'LEARN MORE'
+  },
+  {
+    icon : 'fa-graduation-cap fa-2xl',
+    title : 'EDUCATION',
+    text : 'Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.',
+    btn_text : 'LEARN MORE'
+  },
+  {
+    icon : 'fa-pagelines fa-2xl',
+    title : 'FARMING',
+    text : 'Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.',
+    btn_text : 'LEARN MORE'
+  }
+]
+export {top_menu , social_menu , section2_cards}
