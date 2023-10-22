@@ -1,6 +1,12 @@
 <script>
+import { top_menu } from '../../data/store';
 export default {
-name:'Navbar'
+name:'Navbar',
+data(){
+  return{
+    top_menu
+  }
+}
 }
 </script>
 
@@ -11,19 +17,19 @@ name:'Navbar'
     <ul>
       
       <li class="menu-item">
-        <span class="yellow-text">HOME</span>
+        <a href="#" class="yellow-text">HOME</a>
       </li>
       <li class="menu-item">
-        <span>MISSION</span>
+        <a href="#">MISSION</a>
       </li>
       <li class="menu-item">
-        <span>CAUSES <i class="fa-solid fa-chevron-down"></i></span>
+        <a href="#">CAUSES <i class="fa-solid fa-chevron-down"></i></a>
       </li>
       <li class="menu-item">
-        <span>JOURNAL</span>
+        <a href="#">JOURNAL</a>
       </li>
       <li class="menu-item bg-yellow">
-        <span>DONATE</span>
+        <a href="#">DONATE</a>
       </li>
       
     
@@ -50,6 +56,10 @@ ul{
   li{
     margin: 25px;
     color: white;
+    a{
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 

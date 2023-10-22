@@ -1,6 +1,12 @@
 <script>
+import { social_menu } from '../data/store';
 export default {
-name:'Footer'
+name:'Footer',
+data(){
+  return{
+    social_menu
+  }
+}
 }
 </script>
 
@@ -18,18 +24,12 @@ name:'Footer'
 
       <nav>     
         <ul>
-          <li>
-            <a class="yellow-text mx-2" href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+          <li v-for="(item , index) in social_menu"
+              :key="index"
+          >
+            <a class="yellow-text mx-2" :href="item.href"><i class="fa-brands fa-lg" :class="item.icon_class"></i></a>
           </li>
-          <li>
-            <a class="yellow-text mx-2" href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
-          </li>
-          <li>
-            <a class="yellow-text mx-2" href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
-          </li>
-          <li>
-            <a class="yellow-text mx-2" href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
-          </li>
+          
          
         </ul>
       </nav>
