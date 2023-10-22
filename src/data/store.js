@@ -1,23 +1,28 @@
 const top_menu = [
   {
     href : '#',
-    text : 'HOME'
+    text : 'HOME',
+    class: 'yellow-text'
   },
   {
     href : '#',
-    text : 'MISSION'
+    text : 'MISSION',
+    class: ''
   },
   {
     href : '#',
-    text : 'CAUSES'
+    text : 'CAUSES',
+    class: ''
   },
   {
     href : '#',
-    text : 'JOURNAL'
+    text : 'JOURNAL',
+    class: ''
   },
   {
     href : '#',
-    text : 'DONATE'
+    text : 'DONATE',
+    class: 'bg-yellow'
   },
 ]
 

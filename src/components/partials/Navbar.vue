@@ -16,21 +16,13 @@ data(){
     <nav class="my-4">
     <ul>
       
-      <li class="menu-item">
-        <a href="#" class="yellow-text">HOME</a>
+      <li
+      v-for="(item , index) in top_menu"
+      :key="index"
+      >
+        <a href="#" class="menu-item" :class="item.class">{{ item.text }}</a>
       </li>
-      <li class="menu-item">
-        <a href="#">MISSION</a>
-      </li>
-      <li class="menu-item">
-        <a href="#">CAUSES <i class="fa-solid fa-chevron-down"></i></a>
-      </li>
-      <li class="menu-item">
-        <a href="#">JOURNAL</a>
-      </li>
-      <li class="menu-item bg-yellow">
-        <a href="#">DONATE</a>
-      </li>
+      
       
     
     </ul>
