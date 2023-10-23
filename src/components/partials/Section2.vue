@@ -22,30 +22,16 @@ data(){
     <div class="container">
 
       <div class="row">
-        <div class="col-3">
-          <p class="text-center"><i class="fa-solid fa-droplet fa-2xl"></i></p>
-          <h2 class="text-center white-text">Clean water</h2>
-          <p class="text-center grey-text my-5">Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.</p>
-          <div class="button bg-yellow text-center mx-auto">LEARN MORE</div>
+        <div 
+        v-for="(item , index) in section2_cards"
+        :key="index"
+        class="col-3">
+          <p class="text-center"><i :class="item.icon"></i></p>
+          <h2 class="text-center white-text">{{ item.title }}</h2>
+          <p class="text-center grey-text my-5">{{ item.text }}</p>
+          <div class="button bg-yellow text-center mx-auto">{{ item.btn_text }}</div>
         </div>
-        <div class="col-3">
-          <p class="text-center"><i class="fa-solid fa-stethoscope fa-2xl"></i></p>
-          <h2 class="text-center white-text">Vaccinations</h2>
-          <p class="text-center grey-text my-5">Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.</p>
-          <div class="button bg-yellow text-center mx-auto">LEARN MORE</div>
-        </div>
-        <div class="col-3">
-          <p class="text-center"><i class="fa-solid fa-graduation-cap fa-2xl"></i></p>
-          <h2 class="text-center white-text">Education</h2>
-          <p class="text-center grey-text my-5">Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.</p>
-          <div class="button bg-yellow text-center mx-auto">LEARN MORE</div>
-        </div>
-        <div class="col-3">
-          <p class="text-center"><i class="fa-brands fa-pagelines fa-2xl"></i></p>
-          <h2 class="text-center white-text">Farming</h2>
-          <p class="text-center grey-text my-5">Nullam convallis, orci in congue aliquet, diam mauris cursus urna. Id maximus lectus magna maximus.</p>
-          <div class="button bg-yellow text-center mx-auto">LEARN MORE</div>
-        </div>
+    
       </div>
 
     </div>
