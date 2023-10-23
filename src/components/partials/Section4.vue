@@ -40,7 +40,7 @@ data(){
          :key="index"
          class="small-img-card d-flex my-5">
             <div class="box-img">
-              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
+              <img class="small-img" :src="`/`+item.img" alt="">
             </div>
             <div class="small-img-text">
                     <h4 class="yellow-text mx-4">{{ item.title }}</h4>
