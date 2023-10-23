@@ -111,4 +111,8 @@ h1{
 .small-img{
   width: 145px;
 }
+.bg-pink:hover{
+  cursor: pointer;
+  background-color: #ab3230;
+}
 </style>

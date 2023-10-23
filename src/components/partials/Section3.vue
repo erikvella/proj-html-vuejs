@@ -56,7 +56,10 @@ img{
 
 .bg-pink{
   height: 150px;
-  
+}
+.bg-pink:hover{
+  cursor: pointer;
+  background-color: #ab3230;
 }
 h3{
   padding-top: 60px;

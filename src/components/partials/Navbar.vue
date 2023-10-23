@@ -54,7 +54,10 @@ ul{
     }
   }
 }
-
+a:hover{
+  cursor: pointer;
+  background-color: #73561d;
+}
 
 
 .yellow-text{
