@@ -49,39 +49,7 @@ data(){
                       </p>
             </div>
          </div>
-         <!-- <div class="small-img-card d-flex my-5">
-            <div class="box-img">
-              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
-            </div>
-            <div class="small-img-text">
-                    <h4 class="yellow-text mx-4">Sustainable trade tactics</h4>
-                      <p class="dark-grey-text mx-4">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
-                      </p>
-            </div>
-         </div> -->
-         <!-- <div class="small-img-card d-flex my-5">
-            <div class="box-img">
-              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
-            </div>
-            <div class="small-img-text">
-                    <h4 class="yellow-text mx-4">Farmers making a difference</h4>
-                      <p class="dark-grey-text mx-4">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
-                      </p>
-            </div>
-         </div> -->
-         <!-- <div class="small-img-card d-flex my-5">
-            <div class="box-img">
-              <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
-            </div>
-            <div class="small-img-text">
-                    <h4 class="yellow-text mx-4">Meeting remote tribes in Peru</h4>
-                      <p class="dark-grey-text mx-4">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
-                      </p>
-            </div>
-         </div> -->
+         
        
       </div>
     </div>

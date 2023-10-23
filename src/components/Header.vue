@@ -100,4 +100,14 @@ p{
   font-size: 2rem;
   
 }
+
+// effetti hover
+.box1:hover{
+  cursor: pointer;
+  background-color:  #e0d5d5;
+}
+.box2:hover{
+  cursor: pointer;
+  background-color:   #e0d5d5;
+}
 </style>
