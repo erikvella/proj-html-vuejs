@@ -72,4 +72,27 @@ const section2_cards = [
     btn_text : 'LEARN MORE'
   }
 ]
-export {top_menu , social_menu , section2_cards}
+
+const section4_cards = [
+  {
+    img : '../../assets/img/HelloIMG1669149318263.jpeg',
+    title : 'Understanding community complexities',
+    text: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?'
+  },
+  {
+    img : '../../assets/img/HelloIMG1669149318263.jpeg',
+    title : 'Sustainable trade tactics',
+    text: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?'
+  },
+  {
+    img : '../../assets/img/HelloIMG1669149318263.jpeg',
+    title : 'Farmers making a difference',
+    text: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?'
+  },
+  {
+    img : '../../assets/img/HelloIMG1669149318263.jpeg',
+    title : 'Meeting remote tribes in Peru',
+    text: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?'
+  }
+]
+export {top_menu , social_menu , section2_cards , section4_cards}

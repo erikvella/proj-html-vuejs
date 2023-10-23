@@ -1,6 +1,12 @@
 <script>
+import { section4_cards } from '../../data/store';
 export default {
-name:'Section4'
+name:'Section4',
+data(){
+  return{
+    section4_cards
+  }
+}
 }
 </script>
 
@@ -28,18 +34,22 @@ name:'Section4'
 
       <!-- qui inizia la colonna di dx -->
       <div class="col-6">
-         <div class="small-img-card d-flex my-5">
+        
+         <div 
+         v-for="(item , index) in section4_cards"
+         :key="index"
+         class="small-img-card d-flex my-5">
             <div class="box-img">
               <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
             </div>
             <div class="small-img-text">
-                    <h4 class="yellow-text mx-4">Understanding community complexities</h4>
+                    <h4 class="yellow-text mx-4">{{ item.title }}</h4>
                       <p class="dark-grey-text mx-4">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
+                          {{ item.text }}
                       </p>
             </div>
          </div>
-         <div class="small-img-card d-flex my-5">
+         <!-- <div class="small-img-card d-flex my-5">
             <div class="box-img">
               <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
             </div>
@@ -49,8 +59,8 @@ name:'Section4'
                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
                       </p>
             </div>
-         </div>
-         <div class="small-img-card d-flex my-5">
+         </div> -->
+         <!-- <div class="small-img-card d-flex my-5">
             <div class="box-img">
               <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
             </div>
@@ -60,8 +70,8 @@ name:'Section4'
                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
                       </p>
             </div>
-         </div>
-         <div class="small-img-card d-flex my-5">
+         </div> -->
+         <!-- <div class="small-img-card d-flex my-5">
             <div class="box-img">
               <img class="small-img" src="../../assets/img/HelloIMG1669149318263.jpeg" alt="">
             </div>
@@ -71,7 +81,7 @@ name:'Section4'
                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum hic aperiam, odio accusamus asperiores delectus?
                       </p>
             </div>
-         </div>
+         </div> -->
        
       </div>
     </div>
