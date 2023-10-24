@@ -27,6 +27,7 @@ section{
   height: 620px;
   width: 100%;
   background-image: url(../../assets/img/jumbotron.jpeg);
+  background-size: cover;
   h1{
     padding-top: 160px;
   }
